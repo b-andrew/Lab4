@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lab4.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:onClick="firstRadio"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action2_settings"
+        android:orderInCategory="100"
+        android:onClick="secondRadio"
+        android:title="@string/action2_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action3_settings"
+        android:orderInCategory="100"
+        android:onClick="thirdRadio"
+        android:title="@string/action3_settings"
+        app:showAsAction="never" />
+</menu>
